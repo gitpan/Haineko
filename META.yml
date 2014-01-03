@@ -29,7 +29,7 @@ no_index:
 provides:
   Haineko:
     file: lib/Haineko.pm
-    version: v0.2.12
+    version: v0.2.13
   Haineko::CLI:
     file: lib/Haineko/CLI.pm
   Haineko::CLI::Daemon:
@@ -125,6 +125,6 @@ requires:
   Try::Tiny: 0.16
   XML::Simple: 2.20
   perl: 5.010
-version: 0.2.12
+version: 0.2.13
 x_contributors:
   - 'azumakuniyuki <azumakuniyuki@gmail.com>'
