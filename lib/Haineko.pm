@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent 'Haineko::HTTPD';
 
-our $VERSION = '0.2.13';
+our $VERSION = '0.2.14';
 our $SYSNAME = 'Haineko';
 
 sub startup {
@@ -26,6 +26,7 @@ sub startup {
     $nekorouter->connect( '/dump', { 'controller' => 'Root', 'action' => 'info' } );
     $nekorouter->connect( '/conf', { 'controller' => 'Root', 'action' => 'info' } );
     $nekorouter->connect( '/submit', { 'controller' => 'Sendmail', 'action' => 'submit' } );
+    $nekorouter->connect( '/sample/mail', { 'controller' => 'Sample', 'action' => 'mail' } );
 
     return $httpd->r;
 }

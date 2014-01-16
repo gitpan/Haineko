@@ -74,6 +74,7 @@ lib/Haineko/SMTPD/Relay/Screen.pm
 lib/Haineko/SMTPD/Relay/SendGrid.pm
 lib/Haineko/SMTPD/Response.pm
 lib/Haineko/SMTPD/Session.pm
+lib/Haineko/Sample.pm
 lib/Haineko/Sendmail.pm
 lib/Makefile.am
 libexec/Makefile.am
@@ -82,6 +83,7 @@ t/010-sendmail.t
 t/011-root.t
 t/012-root-dump.t
 t/013-root-conf.t
+t/014-sample-mail.t
 t/100-smtpd-address.t
 t/101-smtpd-greeting.t
 t/110-smtpd-rfc5321.t

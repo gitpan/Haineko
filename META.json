@@ -60,7 +60,6 @@
             "Router::Simple" : "0.14",
             "Server::Starter" : "0.15",
             "Try::Tiny" : "0.16",
-            "XML::Simple" : "2.20",
             "perl" : "5.010"
          }
       },
@@ -75,7 +74,7 @@
    "provides" : {
       "Haineko" : {
          "file" : "lib/Haineko.pm",
-         "version" : "v0.2.13"
+         "version" : "v0.2.14"
       },
       "Haineko::CLI" : {
          "file" : "lib/Haineko/CLI.pm"
@@ -185,12 +184,15 @@
       "Haineko::SMTPD::Session" : {
          "file" : "lib/Haineko/SMTPD/Session.pm"
       },
+      "Haineko::Sample" : {
+         "file" : "lib/Haineko/Sample.pm"
+      },
       "Haineko::Sendmail" : {
          "file" : "lib/Haineko/Sendmail.pm"
       }
    },
    "release_status" : "stable",
-   "version" : "0.2.13",
+   "version" : "0.2.14",
    "x_contributors" : [
       "azumakuniyuki <azumakuniyuki@gmail.com>"
    ]
