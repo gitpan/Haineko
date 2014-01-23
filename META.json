@@ -74,7 +74,7 @@
    "provides" : {
       "Haineko" : {
          "file" : "lib/Haineko.pm",
-         "version" : "v0.2.14"
+         "version" : "v0.2.15"
       },
       "Haineko::CLI" : {
          "file" : "lib/Haineko/CLI.pm"
@@ -192,7 +192,7 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.2.14",
+   "version" : "0.2.15",
    "x_contributors" : [
       "azumakuniyuki <azumakuniyuki@gmail.com>"
    ]
